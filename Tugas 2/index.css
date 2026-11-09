@@ -1,0 +1,389 @@
+* {
+    box-sizing: border-box;
+}
+
+.kontainer {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.left {
+    width: 70%;
+    background-color: rgb(247, 252, 254);
+}
+
+.right {
+    width: 30%;
+    background-color: rgb(247, 252, 254);
+
+}
+
+.footer {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.judul-slogan {
+    padding: 8px;
+}
+
+.warnaspan {
+    color: rgb(46, 4, 152);
+}
+
+#beranda {
+    margin: 0;
+}
+
+.slogan {
+    margin: 0;
+}
+
+.menu a {
+    margin: 0 12px;
+    text-decoration: none;
+    color: grey;
+    font-weight: 500;
+    transition: color 0.10s ease;
+}
+
+.menu a:hover {
+    color: rgb(46, 4, 152);
+}
+
+.tombol-build {
+    background-color: rgb(66, 12, 162);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 15px;
+    transition: all 0.1s ease;
+}
+
+.tombol-build:hover {
+    box-shadow: 0 1px 6px rgb(3, 20, 106);
+    background-color: rgb(46, 4, 152);
+}
+
+.left-right {
+    display: flex;
+
+}
+
+.kotak-awal {
+    color: white;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 40px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(135deg, rgb(66, 12, 162) 0%, #080e77 100%);
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.kotak-awal h1,
+.kotak-awal h2,
+.kotak-awal p {
+    margin: 0;
+    text-align: left;
+}
+
+
+.kotak-awal .link-kotak {
+    margin: 0;
+}
+
+.link-kotak:hover {
+    background-color: #edecee;
+}
+
+.ket {
+    padding: 0 75px 0 0;
+    padding-bottom: 8px;
+}
+
+.kata {
+    background-color: rgb(84, 30, 177);
+    border-radius: 20px;
+    padding: 5px 15px;
+    color: white;
+    margin: 0;
+    border: 0.5px solid rgba(183, 183, 183, 0.426);
+}
+
+.link-kotak {
+    text-decoration: none;
+    background-color: white;
+    color: rgb(46, 4, 152);
+    padding: 8px 16px;
+    margin: 0;
+    border-radius: 8px;
+}
+
+.link-kot {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.kotak-core {
+    border-radius: 10px;
+    background-color: white;
+    margin: 0 40px 40px;
+    padding: 8px 20px;
+    border: 1px solid rgb(238, 240, 236);
+}
+
+#layanan {
+    margin-bottom: 0;
+}
+
+.cores-word {
+    margin-top: 0;
+}
+
+.isic {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px;
+
+}
+
+.kotak-isic {
+    padding: 20px;
+    background-color: rgb(255, 254, 254);
+    border: 1px solid rgb(238, 240, 236);
+    border-radius: 10px;
+    flex: 0 0 calc(50% - 10px);
+    transition: all 0.3s ease;
+}
+
+.kotak-isic:hover {
+    transform: translateY(-6px);
+    border-color: #923be3;
+    background-color: #f5f3f7;
+    box-shadow: 0 12px 24px rgba(59, 69, 227, 0.08);
+}
+
+.kotak-proses {
+    background-color: white;
+    border: 1px solid rgb(238, 240, 236);
+    border-radius: 10px;
+    padding: 8px;
+    margin: 40px;
+}
+
+.isip {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+
+}
+
+.kotak-isip {
+    padding: 15px;
+    border: 1px solid rgb(238, 240, 236);
+    border-radius: 10px;
+    background-color: rgb(255, 254, 254);
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 250px;
+
+}
+
+.judul-isip {
+    font-weight: bold;
+}
+
+#proses {
+    padding: 0 0 0 8px;
+}
+
+.kotak-self {
+    padding: 28px 25px 30px;
+    border: 1px solid rgb(238, 240, 236);
+    border-radius: 10px;
+    margin: 40px 20px 20px 10px;
+    background-color: rgb(255, 254, 254);
+    text-align: center;
+
+}
+
+.img-sosmed {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.desk-self {
+    color: rgb(124, 124, 124);
+    padding-bottom: 8px;
+}
+
+.kotak-kontak {
+    padding: 15px 30px 10px;
+    border: 1px solid rgb(238, 240, 236);
+    border-radius: 10px;
+    margin: 40px 20px 20px 10px;
+    background-color: rgb(255, 254, 254);
+    display: flex;
+    flex-direction: column;
+}
+
+.kotak-kontak h3,
+.kotak-kontak p {
+    margin: 8px;
+}
+
+.pesan {
+    padding: 10px;
+    border: 1px solid rgb(238, 240, 236);
+    border-radius: 10px;
+    margin: 20px;
+    background-color: black;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.pesan:hover {
+    background-color: rgb(42, 42, 42);
+}
+
+.link-footer a {
+    text-decoration: none;
+    margin: 15px;
+    color: grey;
+    font-weight: 500;
+    transition: color 0.10s ease;
+}
+
+.link-footer a:hover {
+    color: rgb(46, 4, 152);
+}
+
+
+.footer p {
+    margin-left: 15px;
+}
+
+.img-isic1 {
+    background-color: #d7f6e7;
+    padding: 8px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+}
+
+.img-isic2 {
+    background-color: rgb(225, 243, 249);
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.img-isic3 {
+    background-color: rgb(249, 244, 225);
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.img-isic4 {
+    background-color: rgb(241, 225, 249);
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.img-isip {
+    background-color: rgb(66, 12, 162);
+    border-radius: 40px;
+    padding: 8px 10px 8px 8px;
+}
+
+.img-self {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid rgb(66, 12, 162);
+    box-shadow: 0 2px 10px rgb(66, 12, 162);
+}
+
+.baris-email {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.img-email {
+    width: 15px;
+    height: 15px;
+    object-fit: contain;
+    margin-top: 9px;
+}
+
+.baris-wa {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.img-wa {
+    width: 15px;
+    height: 15px;
+    object-fit: contain;
+    margin-top: 9px;
+}
+
+.baris-lokasi {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.img-lokasi {
+    width: 15px;
+    height: 15px;
+    object-fit: contain;
+    margin-top: 9px;
+}
+
+.fuls-dev {
+    color: rgb(46, 4, 152);
+    margin-top: 0;
+}
+
+.tan-k {
+    margin-bottom: 3px;
+}
+
+.label-ewl {
+    color: rgb(124, 124, 124);
+}
+
+.garis {
+    background-color: rgb(235, 235, 235);
+    height: 1px;
+    border: none;
+    margin: 0;
+}
